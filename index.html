@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>FinPay - Digital Wallet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>💳 FinPay</h1>
+        <p>Your Smart Digital Wallet</p>
+    </header>
+
+    <section class="features">
+        <h2>Our Features</h2>
+
+        <div class="card">
+            <h3>Send Money</h3>
+            <p>Transfer money instantly</p>
+        </div>
+
+        <div class="card">
+            <h3>Check Balance</h3>
+            <p>View wallet balance anytime</p>
+        </div>
+
+        <div class="card">
+            <h3>Pay Bills</h3>
+            <p>Electricity, Mobile, DTH</p>
+        </div>
+    </section>
+
+    <section class="transfer">
+        <h2>Send Money</h2>
+
+        <input type="text" id="name" placeholder="Receiver Name">
+        <input type="number" id="amount" placeholder="Amount ₹">
+
+        <button onclick="sendMoney()">Send</button>
+
+        <p id="result"></p>
+    </section>
+
+    <footer>
+        <p>© 2026 FinPay | Hackathon Project</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
